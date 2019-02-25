@@ -1,5 +1,5 @@
 job "prometheus-blackbox-exporter" {
-  datacenters = ["[[env "DC"]]"
+  datacenters = ["[[env "DC"]]"]
   type = "system"
   group "prometheus-blackbox-exporter" {
     task "prometheus-blackbox-exporter" {
