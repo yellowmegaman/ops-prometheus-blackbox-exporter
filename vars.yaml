@@ -1,0 +1,6 @@
+---
+prometheus-blackbox-exporter:
+  version: 0.13.0
+  ram: 64
+  port: 9115
+  count: 1
